@@ -86,8 +86,8 @@ public class Util {
     @SuppressWarnings("unchecked")
     public static void main(final String[] args) throws NoSuchMethodException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
         System.out.println(nonull(null, 23, null, 27));
-        System.out.println(nonull(null, null));
-        System.out.println(nonull());
+        //System.out.println(nonull(null, null));
+        //System.out.println(nonull());
         System.out.println(nonull((Object)null));
 
         System.out.println(median(1, 2, 3));

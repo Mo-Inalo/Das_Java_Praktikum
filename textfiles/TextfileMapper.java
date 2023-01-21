@@ -1,3 +1,7 @@
+package textfiles;
+
+import textfiles.TextfileIterator;
+
 import java.io.*;
 
 abstract class TextfileMapper

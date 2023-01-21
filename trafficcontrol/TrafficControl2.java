@@ -1,7 +1,9 @@
+package trafficcontrol;
+
 import java.io.*;
 import java.util.*;
 import java.net.*;
-import edu.fhm.cs.rs.*;
+
 
 class TrafficControl2
 {

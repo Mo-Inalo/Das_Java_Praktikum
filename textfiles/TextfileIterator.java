@@ -1,9 +1,11 @@
-import java.io.*;
-import java.util.*;
-import java.net.*;
-import edu.fhm.cs.rs.*;
+package textfiles;
 
-class TextfileIterator implements Iterable<String>
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Iterator;
+
+public class TextfileIterator implements Iterable<String>
 {
     TextfileIterator(String fn)
     {
