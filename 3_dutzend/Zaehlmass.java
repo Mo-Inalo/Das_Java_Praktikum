@@ -13,6 +13,6 @@ class Zaehlmass
 	final int dutzend = n/12;
 	n %= 12;
 	
-	System.out.printf("%d %d %d %d%n", gros, schock, dutzend, n);
+	System.out.printf("%d %d %d %d %n", gros, schock, dutzend, n);
     }
 }
